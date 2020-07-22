@@ -1,0 +1,16 @@
+.scroll-wrap {
+  height: 300vh;
+  background: lightgray;
+  padding-top: 55px;
+}
+
+.scroll-item {
+  height: 60vh;
+  background: lightcyan;
+  margin: 10px;
+  opacity: 0;
+}
+
+.scroll-item--active {
+  opacity: 1;
+}

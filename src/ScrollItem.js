@@ -11,6 +11,7 @@ export const ScrollItem = ({ ...props }) => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
   });
 
   const handleScroll = () => {
